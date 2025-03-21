@@ -37,6 +37,7 @@ async function fetchSalahTimes() {
         }
 
         const salahTimes = `
+        <strong style="color: red;">Please check your nearest mosque for accurate timings.</strong><br><br>
             <span>Fajr: ${convertTo12Hour(data.data.timings.Fajr)}</span> | 
             <span>Dhuhr: ${convertTo12Hour(data.data.timings.Dhuhr)}</span> | 
             <span>Asr: ${convertTo12Hour(data.data.timings.Asr)}</span> | 
